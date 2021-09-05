@@ -81,5 +81,3 @@ const d = new Date();
 console.log(d.toISOString());
 //Date.toJSON() -> ISOSting과 문자 형식이 같다.
 console.log(d.toJSON());
-
-//property Getters and Setters
