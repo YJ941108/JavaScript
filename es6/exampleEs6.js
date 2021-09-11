@@ -131,8 +131,18 @@ console.log(firstIndex);
 console.log(Math.trunc(4.8), Math.trunc(-4.2));
 console.log(Math.sign(-4), Math.sign(4));
 console.log(Math.cbrt(125));
+console.log(Math.log2(2), Math.log10(10));
+
 // New Number Properties
 // New Number Methods
 // New Global Methods
 // Iterables Object.entries
+
 // JavaScript Modules
+/* import * as myModule from "my-module.js";
+    import {myMember} from "my-module.js";
+    import {foo, bar} from "my-module.js";
+    import {reallyReallyLongModuleMemberName as shortName} from "my-module.js";
+    import {reallyReallyLongModuleMemberName as shortName, anotherLongModuleName as short} from "my-module.js";
+    import "my-module.js";
+*/

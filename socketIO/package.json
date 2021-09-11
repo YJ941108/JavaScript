@@ -1,0 +1,24 @@
+{
+    "name": "socket-chat-example",
+    "version": "0.0.1",
+    "description": "my first socket.io app",
+    "scripts": {
+        "start": "nodemon --exec babel-node index.js"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "socket.io": "^4.2.0",
+        "socket.io-client": "^4.2.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.15.5",
+        "@babel/node": "^7.15.4",
+        "@babel/preset-env": "^7.15.6",
+        "eslint": "^7.32.0",
+        "eslint-config-airbnb": "^18.2.1",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-prettier": "^4.0.0",
+        "nodemon": "^2.0.12",
+        "prettier": "^2.4.0"
+    }
+}
